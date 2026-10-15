@@ -1,0 +1,57 @@
+body{
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+h2 {
+    color: aqua;
+    text-align: left;
+}
+p {
+    background-color: white;
+    text-align: right;
+}
+form {
+    background: white;
+    width: 350px;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+    border: 3px solid purple;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+}
+label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing:border-box;
+
+}
+button {
+    background: linear-gradient(to right, blue, purple);
+    color: white;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background: linear-gradient(to right, purple, red);
+}
